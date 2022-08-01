@@ -89,6 +89,7 @@ h1,h2
     display:flex;
 }
 
+/* Wrap for the projects sub container.*/
 .projects .sub 
 {
     flex-wrap: wrap;
@@ -104,6 +105,7 @@ h1,h2
     justify-content: center;
 }
 
+/* First project image larger */
 .proj img#main
 {
     height: 300px;
@@ -111,6 +113,7 @@ h1,h2
     padding: 5px;
 }
 
+/* Headers for projects */
 .headerp 
 {
     padding: 20px;
