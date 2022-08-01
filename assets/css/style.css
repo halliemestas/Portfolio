@@ -1,0 +1,209 @@
+/* Color pallete variables
+:root
+{
+    //declare with '--' syntax
+    
+
+} */
+
+*
+{
+    font-family:Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+}
+
+body
+{
+    color:#A3BFB7;
+    background-color: #22734D;
+}
+
+header
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner
+{
+    display:flex;
+    margin-bottom: 25px;
+} 
+
+.banner img
+{
+    height:75px;
+    width: 100%;
+}
+
+h1,h2
+{
+    color: #11261A;
+}
+
+/* Main content headers, placed in the first 25% of container and centers to full size of sub div. */
+.header
+{
+    border-right: solid 5px #19593B;
+    display:flex;
+    width:25%;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Sub sections placed in the final 75% of the page, centers content within space.  */
+.sub
+{
+    margin-left: 10px;
+    float:right;
+    display: flex;
+    width:75%;
+    justify-content: center;
+}
+
+/* Main about content box */
+.about
+{
+    display:flex;
+}
+
+/* Doesn't allow image size to decrease too much. Centered to text. Placed in first 25% of sub div. Image from About*/
+#image1
+{
+    display: flex;
+    margin:auto;
+    width: 25%;
+    height: 250px;
+    width: 300px;
+    padding: 5px;
+    min-width: 50%;
+    min-height: 75%;
+}
+
+/* Main project content box */
+.projects
+{
+    width:100%;
+    display:flex;
+}
+
+.projects .sub 
+{
+    flex-wrap: wrap;
+}
+
+/* Project Previews */
+.proj 
+{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj img#main
+{
+    height: 300px;
+    width:400px;
+    padding: 5px;
+}
+
+.headerp 
+{
+    padding: 20px;
+    background: #19593B;
+    color: #fff;
+    justify-content: center;
+}
+
+/* Preview Image Sizing */
+#projimg
+{
+    height:150px;
+    width:200px;
+    padding: 5px;
+
+}
+
+
+/* Main contact content box */
+.cont
+{
+    width:100%;
+    display:flex;
+}
+
+/* Main resume content box */
+.resume
+{
+    width:100%;
+    display:flex;
+}
+
+
+/* All list attributes */
+ul.navigation
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+ul.navigation li
+{
+    float: left;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:#11261A;
+}
+
+ul.navigation li a
+{
+    display: block;
+    color:#A3BFB7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation li a:hover 
+{
+    color:#11261A;
+}
+
+ul.contact
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul.conatct li
+{
+    float: left;
+}
+
+ul.contact li a
+{
+    display: block;
+    color:#548C78;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+ul.contact li a:hover 
+{
+    color:#11261A;
+}
