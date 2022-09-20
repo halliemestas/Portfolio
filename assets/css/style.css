@@ -25,27 +25,10 @@ header
     align-items: center;
 }
 
-.banner
-{
-    display:flex;
-    margin-bottom: 25px;
-} 
-
-.banner img
-{
-    height:75px;
-    width: 100%;
-}
-
-h1,h2
-{
-    color: #11261A;
-}
-
 /* Main content headers, placed in the first 25% of container and centers to full size of sub div. */
 .header
 {
-    border-right: solid 5px #19593B;
+    border-right: solid 5px black;
     display:flex;
     width:25%;
     justify-content: center;
@@ -69,6 +52,7 @@ h1,h2
     display:flex;
 }
 
+/* TO DO: UPDATE IMAGE/RESPONSIVENESS */
 /* Doesn't allow image size to decrease too much. Centered to text. Placed in first 25% of sub div. Image from About*/
 #image1
 {
@@ -105,20 +89,11 @@ h1,h2
     justify-content: center;
 }
 
-/* First project image larger */
-.proj img#main
-{
-    height: 300px;
-    width:400px;
-    padding: 5px;
-}
-
 /* Headers for projects */
 .headerp 
 {
     padding: 20px;
-    background: #19593B;
-    color: #fff;
+    background: lightgrey;
     justify-content: center;
 }
 
@@ -148,37 +123,6 @@ h1,h2
 
 
 /* All list attributes */
-ul.navigation
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-}
-
-ul.navigation li
-{
-    float: left;
-    border-radius: 25px;
-    border-style: solid;
-    border-color:#11261A;
-}
-
-ul.navigation li a
-{
-    display: block;
-    color:#A3BFB7;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.navigation li a:hover 
-{
-    color:#11261A;
-}
-
 ul.contact
 {
     list-style-type: none;
@@ -198,15 +142,17 @@ ul.conatct li
 ul.contact li a
 {
     display: block;
-    color:#548C78;
     text-align: center;
     padding: 14px 16px;
     text-decoration: underline;
+    color: black;
     font-size: 20px;
     font-weight: 550;
 }
 
 ul.contact li a:hover 
 {
-    color:#11261A;
+    color:lightgrey;
 }
+
+/* Other */
